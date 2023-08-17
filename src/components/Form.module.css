@@ -1,0 +1,50 @@
+.titulo{
+    background-color: rgb(213, 211, 211);
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+.DivForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(213, 211, 211);
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.label{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    width: 100%;
+}
+
+.input{
+    width: 100%;
+}
+
+.button{
+    border: 0px solid white;
+    background-color: blue;
+    color: white;
+}
+
+.errors{
+    padding: 0px;
+    margin: 1px;
+    color: red;
+}
